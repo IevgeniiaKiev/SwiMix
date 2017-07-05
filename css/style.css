@@ -144,7 +144,7 @@ body {
   margin: 0 auto;
   margin-top: 50px;
   border-radius: 50%;
-  background: url('../img/slava.jpg') no-repeat;
+  background: url('../img/slava.jpg') no-repeat top center;
   background-size: 150%;
 }
 
