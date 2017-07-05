@@ -224,6 +224,10 @@ html, body {
   display: inline;
 }
 
+.text-bold {
+  font-family: 'OpensansBold'
+}
+
 .moreless {
   color: #48c9ef;
   font-family: 'OpensansBold';
