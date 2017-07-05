@@ -144,7 +144,7 @@ body {
   margin: 0 auto;
   margin-top: 50px;
   border-radius: 50%;
-  background: url('../img/slava.jpg') no-repeat top center;
+  background: url('../img/slava.jpg') no-repeat;
   background-size: 150%;
 }
 
@@ -156,7 +156,6 @@ body {
   position: relative;
   height: 100vh;
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -203,4 +202,15 @@ body {
 
 .section_slogan--second {
   background-image: url('../img/mobile3.jpg');
+}
+
+.section_doctor {
+  padding: 50px 20px;
+}
+
+
+@media {
+  .section_slogan {
+      background-attachment: fixed;
+  }
 }
