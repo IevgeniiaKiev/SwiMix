@@ -180,6 +180,7 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -211,6 +212,21 @@ html, body {
 
 .section_doctor {
   padding: 50px 20px;
+}
+
+.section_doctor__img {
+  width: 80px;
+  float: left;
+  margin-right: 15px;
+}
+
+.section_doctor__text {
+  display: inline;
+}
+
+.moreless {
+  color: #48c9ef;
+  font-family: 'OpensansBold';
 }
 
 
