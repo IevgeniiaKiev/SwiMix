@@ -272,9 +272,12 @@ html, body {
 .section_pools__schedule_day {
   margin-top: 20px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .section_pools__wrapper_schedule {
+  width: 135px;
+  margin: 0 auto;
   padding-top: 5px;
 }
 
