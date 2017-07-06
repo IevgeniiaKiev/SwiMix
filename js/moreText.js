@@ -1,6 +1,6 @@
 $(document).ready(function() {
 (function(){
-    var showChar = 400;
+    var showChar = 411;
     var ellipsestext = "...";
 
     $('.section_doctor__wrapper_text').each(function() {
