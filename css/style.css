@@ -263,6 +263,7 @@ html, body {
 
 .section_pools {
   padding: 50px 20px;
+  text-align: center;
 }
 
 .section_pools__name {
