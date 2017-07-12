@@ -94,11 +94,11 @@ html, body {
 .section_circle {
   position: relative;
   width: 250px;
-  height: 250px;
+  /*height: 250px;*/
   margin: 0 auto;
-  margin-top: 50px;
-  border: 3px solid #48c9ef;
-  border-radius: 50%;
+  margin-top: 40px;
+  /*border: 3px solid #48c9ef;
+  border-radius: 50%;*/
 }
 
 .section_circle__text {
@@ -108,7 +108,7 @@ html, body {
 }
 
 .section_programs__circle__text {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .section_programs__circle__img {
@@ -198,21 +198,33 @@ html, body {
 }
 
 .section_levels__circle__text {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .section_levels__circle__img {
   display: block;
   margin: 0 auto;
   width: 80px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .section_levels__number {
   position: absolute;
-  top: 156px;
-  left: 115px;
+  top: 63px;
+  left: 118px;
   font-size: 24px;
+}
+
+.section_levels__number--gold {
+  color: #ffd700;
+}
+
+.section_levels__number--silver {
+  color: #c0c0c0;
+}
+
+.section_levels__number--bronze {
+  color: #cc6633;
 }
 
 .section_slogan--second {
