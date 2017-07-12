@@ -104,7 +104,7 @@ html, body {
 .section_circle__text {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'OpensansBold';
+  font-weight: bold;
 }
 
 .section_programs__circle__text {
