@@ -303,7 +303,8 @@ html, body {
 }
 
 .section_contacts {
-  padding: 0 20px 50px 20px;
+  padding: 50px 20px;
+  background: #daf4fc;
 }
 
 .section_contacts__wrapper_info {
