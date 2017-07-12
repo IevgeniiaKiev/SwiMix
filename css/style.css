@@ -33,6 +33,7 @@
 body {
   font-size: 16px;
   line-height: 24px;
+  color: #333;
 }
 
 html, body {
@@ -44,8 +45,16 @@ html, body {
   padding: 50px 20px;
   position: relative;
   height: 100%;
-  background: url('../img/mobile1.jpg') no-repeat top center;
+  background-image: url('../img/mobile1.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1200px) {
+  .section_top {
+      background-attachment: fixed;
+  }
 }
 
 .opacity {
