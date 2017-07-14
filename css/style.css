@@ -218,6 +218,7 @@ html, body {
     justify-content: space-between;
     align-items: flex-end;
   }
+}
 
 .section_circle__text {
   text-align: center;
@@ -538,10 +539,6 @@ html, body {
   margin-top: 30px;
 }
 
-.section_pools__adress--top_margin {
-  margin-top: 55px;
-}
-
 .section_pools__img {
   max-width: 100%;
   margin-top: 20px;
@@ -569,8 +566,14 @@ html, body {
   margin-top: 20px;
 }
 
-.section_pools__adress--top_margin-68 {
-  margin-top: 68px;
+@media screen and (min-width: 768px) {
+  .section_pools__adress--top_margin-55 {
+    margin-top: 55px;
+  }
+
+  .section_pools__adress--top_margin-68 {
+    margin-top: 68px;
+  }
 }
 
 .footer {
