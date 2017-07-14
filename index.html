@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="js/clickShow.js"></script>
+    <script src="js/clickShowMobile.js"></script>
+    <script src="js/clickShowDesktop.js"></script>
     <script src="js/moreText.js"></script>
   </head>
   <body>
@@ -29,38 +30,63 @@
       <div class="wrapper_section">
         <h2 class="section_heding">Программа</h2>
         <p class="section_intro__text">Предлагаемая программа освоения с водной средой, обучения плаванию и гармоничного физического развития представляет собой синтез классического плавания, фридайвинга и скоростного плавания в ластах.</p>
+<!--PROGRAMS MOBILE-->
+        <div class="section_mobile">
+          <div class="section_wrapper">
+         <img class="section_programs__circle__img" src="img/icons/icon_swim.png" alt="Swim">
+         <p class="section_circle__text section_programs__circle__text">Классическое<br> плавание</p>
 
-        <div class="section_wrapper">
-        <div class="section_circle">
-          <img class="section_programs__circle__img" src="img/icons/icon_swim.png" alt="Swim">
-          <p class="section_circle__text section_programs__circle__text">Классическое<br> плавание</p>
-        </div>
-
-        <a class="section_button_more" href="#">Подробнее</a>
-        <p class="section_text_description">Это фундамент программы. Вы приобретаете умение управлять своим телом, передвигаясь в воде свободно и эффективно на основе техники спортивных способов плавания. При условии регулярных тренировок на фоне самомотивации вы сможете добиться способности проплыть столько, сколько захотите.</p>
-       </div>
-
-        <div class="section_wrapper">
-        <div class="section_circle">
-          <img class="section_programs__circle__img section_programs__circle__img--second" src="img/icons/icon_dive.png" alt="Dive">
-          <p class="section_circle__text section_programs__circle__text">Фридайвинг</p>
-        </div>
-
-        <a class="section_button_more" href="#">Подробнее</a>
-        <p class="section_text_description">Элементы этого замечательного вида активности в водной среде, включаемые в тренировки, помогут познать и развить возможности дыхательной системы вашего организма, которая является, наряду с сердечно — сосудистой, основой энергообеспечения человека и жизнеспособности в целом. Умение нырять на задержке дыхания позволит вам легко и непринуждённо чувствовать себя под водой в любом водоёме.</p>
-       </div>
+       <a class="section_button_more_mobile" href="#">Подробнее</a>
+       <p class="section_text_description_mobile">Это фундамент программы. Вы приобретаете умение управлять своим телом, передвигаясь в воде свободно и эффективно на основе техники спортивных способов плавания. При условии регулярных тренировок на фоне самомотивации вы сможете добиться способности проплыть столько, сколько захотите.</p>
+      </div>
 
        <div class="section_wrapper">
-        <div class="section_circle">
-          <img class="section_programs__circle__img" src="img/icons/icon_fast.png" alt="Fast">
-          <p class="section_circle__text section_programs__circle__text">Скоростное плавание<br> в ластах</p>
+         <img class="section_programs__circle__img section_programs__circle__img--second" src="img/icons/icon_dive.png" alt="Dive">
+         <p class="section_circle__text section_programs__circle__text">Фридайвинг</p>
+
+       <a class="section_button_more_mobile" href="#">Подробнее</a>
+       <p class="section_text_description_mobile">Элементы этого замечательного вида активности в водной среде, включаемые в тренировки, помогут познать и развить возможности дыхательной системы вашего организма, которая является, наряду с сердечно — сосудистой, основой энергообеспечения человека и жизнеспособности в целом. Умение нырять на задержке дыхания позволит вам легко и непринуждённо чувствовать себя под водой в любом водоёме.</p>
+      </div>
+
+      <div class="section_wrapper">
+         <img class="section_programs__circle__img" src="img/icons/icon_fast.png" alt="Fast">
+         <p class="section_circle__text section_programs__circle__text">Скоростное плавание<br> в ластах</p>
+
+       <a class="section_button_more_mobile" href="#">Подробнее</a>
+       <p class="section_text_description_mobile">Упражнения из арсенала пловцов в ластах не только укрепят мышцы ног, брюшного пресса и спины, помогут вашему телу стать гибким и пластичным, но и дадут непередаваемое ощущение скорости и динамики в воде.</p>
+      </div>
+      </div>
+<!--END PROGRAMS MOBILE-->
+
+<!--PROGRAMS DESKTOP-->
+        <div class="section_desktop">
+        <div class="section_wrapper">
+          <img class="section_programs__circle__img" src="img/icons/icon_swim.png" alt="Swim">
+          <p class="section_circle__text section_programs__circle__text">Классическое<br> плавание</p>
+
+        <a class="section_button_more" href="#" data-tab="tab-1">Подробнее</a>
+      </div>
+
+        <div class="section_wrapper">
+          <img class="section_programs__circle__img" src="img/icons/icon_dive.png" alt="Dive">
+          <p class="section_circle__text section_programs__circle__text">Фридайвинг</p>
+
+        <a class="section_button_more" href="#" data-tab="tab-2">Подробнее</a>
         </div>
 
-        <a class="section_button_more" href="#">Подробнее</a>
-        <p class="section_text_description">Упражнения из арсенала пловцов в ластах не только укрепят мышцы ног, брюшного пресса и спины, помогут вашему телу стать гибким и пластичным, но и дадут непередаваемое ощущение скорости и динамики в воде.</p>
-       </div>
+       <div class="section_wrapper">
+          <img class="section_programs__circle__img" src="img/icons/icon_fast.png" alt="Fast">
+          <p class="section_circle__text section_programs__circle__text">Скоростное плавание<br> в ластах</p>
 
-       <div class="section_programs__photo" style="display: block">
+        <a class="section_button_more" href="#" data-tab="tab-3">Подробнее</a>
+        </div>
+      </div>
+      <p class="section_text_description" id="tab-1">Это фундамент программы. Вы приобретаете умение управлять своим телом, передвигаясь в воде свободно и эффективно на основе техники спортивных способов плавания. При условии регулярных тренировок на фоне самомотивации вы сможете добиться способности проплыть столько, сколько захотите.</p>
+      <p class="section_text_description" id="tab-2">Элементы этого замечательного вида активности в водной среде, включаемые в тренировки, помогут познать и развить возможности дыхательной системы вашего организма, которая является, наряду с сердечно — сосудистой, основой энергообеспечения человека и жизнеспособности в целом. Умение нырять на задержке дыхания позволит вам легко и непринуждённо чувствовать себя под водой в любом водоёме.</p>
+      <p class="section_text_description" id="tab-3">Упражнения из арсенала пловцов в ластах не только укрепят мышцы ног, брюшного пресса и спины, помогут вашему телу стать гибким и пластичным, но и дадут непередаваемое ощущение скорости и динамики в воде.</p>
+<!--END PROGRAMS DESKTOP-->
+       <div class="wrapper_align">
+       <div class="section_programs__photo">
        </div>
         <p class="section_programs__trener">Тренировки проводит <span class="section_name">Семёнов Святослав Николаевич &#8212;</span><br>
            заслуженный мастер спорта по плаванию<br>
@@ -69,6 +95,7 @@
            двукратный победитель всемирных Универсиад<br>
            многократный рекордсмен Украины
         </p>
+      </div>
       </div>
 <!--END SECOND SECTION-->
 
@@ -83,38 +110,78 @@
         <h2 class="section_heding">Уровни развития</h2>
         <p class="section_intro__text">Разделение на уровни владения навыками плавания не подразумевает различную оплату или специальные условия для тренировок. Занятия проходят в групповом формате и внутри каждой группы могут быть занимающиеся различного уровня. Уровни развития нужны для отслеживания прогресса в занятиях и постановки собственных целей и задач.</p>
 
+<!--LEVELS MOBILE-->
+        <div class="section_mobile">
         <div class="section_wrapper">
-        <div class="section_circle">
-          <img class="section_levels__circle__img" src="img/icons/icon_first.png" alt="First">
-          <p class="section_circle__text section_levels__circle__text">Продвинутый</p>
-          <p class="section_levels__number section_levels__number--gold">1</p>
+          <div class="wrapper_medal">
+            <img class="section_levels__circle__img" src="img/icons/icon_third.png" alt="Third">
+            <p class="section_levels__number section_levels__number--bronze">3</p>
+          </div>
+           <p class="section_circle__text section_levels__circle__text">Начальный</p>
+
+         <a class="section_button_more_mobile" href="#">Подробнее</a>
+         <p class="section_text_description_mobile">Данный уровень предполагает умение уверенно держаться на воде и проплывать любым удобным способом 25-50м. В занятия включаются упражнения для освоения с водной средой, развития координации движений и простейшую тренировку дыхательной и сердечно-сосудистой систем. На данном уровне понятия «фридайвинг» и «скоростное плавание в ластах» не рассматриваются.</p>
         </div>
 
-        <a class="section_button_more" href="#">Подробнее</a>
-        <p class="section_text_description">Данный уровень предполагает уверенное проплывание заданной дистанции с применением техники спортивных способов плавания. В занятия включаются упражнения для совершенствования техники плавания и специальные задания для развития дыхательной и сердечно-сосудистой систем на уровне начальной тренировки профессиональных пловцов. В тренировку также включаются упражнения из арсенала фридайверов для техничного и эффективного ныряния на дальность и упражнения из системы подготовки пловцов в ластах для развития умения скоростного продвижения в воде.</p>
-       </div>
-
         <div class="section_wrapper">
-        <div class="section_circle">
-          <img class="section_levels__circle__img" src="img/icons/icon_second.png" alt="Second">
+          <div class="wrapper_medal">
+           <img class="section_levels__circle__img" src="img/icons/icon_second.png" alt="Second">
+           <p class="section_levels__number section_levels__number--silver">2</p>
+         </div>
           <p class="section_circle__text section_levels__circle__text">Базовый</p>
-          <p class="section_levels__number section_levels__number--silver">2</p>
-        </div>
 
-        <a class="section_button_more" href="#">Подробнее</a>
-        <p class="section_text_description">Данный уровень предполагает умение плыть не меньше 100-200м с применением упрощённых вариантов техники основных способов плавания. В занятия включаются упражнения для освоения техники плавания с применением специальных средств (лопатки, колобашки, короткие ласты и пр.) и адаптированную для данного уровня тренировку дыхательной и сердечно-сосудистой систем. Также даётся представление о технике скоростного плавания в ластах с простейшими упражнениями для фридайвинга.</p>
+        <a class="section_button_more_mobile" href="#">Подробнее</a>
+        <p class="section_text_description_mobile">Данный уровень предполагает умение плыть не меньше 100-200м с применением упрощённых вариантов техники основных способов плавания. В занятия включаются упражнения для освоения техники плавания с применением специальных средств (лопатки, колобашки, короткие ласты и пр.) и адаптированную для данного уровня тренировку дыхательной и сердечно-сосудистой систем. Также даётся представление о технике скоростного плавания в ластах с простейшими упражнениями для фридайвинга.</p>
        </div>
 
        <div class="section_wrapper">
-        <div class="section_circle">
-          <img class="section_levels__circle__img" src="img/icons/icon_third.png" alt="Third">
-          <p class="section_circle__text section_levels__circle__text">Начальный</p>
-          <p class="section_levels__number section_levels__number--bronze">3</p>
+         <div class="wrapper_medal">
+           <img class="section_levels__circle__img" src="img/icons/icon_first.png" alt="First">
+           <p class="section_levels__number section_levels__number--gold">1</p>
+         </div>
+         <p class="section_circle__text section_levels__circle__text">Продвинутый</p>
+
+       <a class="section_button_more_mobile" href="#">Подробнее</a>
+       <p class="section_text_description_mobile">Данный уровень предполагает уверенное проплывание заданной дистанции с применением техники спортивных способов плавания. В занятия включаются упражнения для совершенствования техники плавания и специальные задания для развития дыхательной и сердечно-сосудистой систем на уровне начальной тренировки профессиональных пловцов. В тренировку также включаются упражнения из арсенала фридайверов для техничного и эффективного ныряния на дальность и упражнения из системы подготовки пловцов в ластах для развития умения скоростного продвижения в воде.</p>
+      </div>
+      </div>
+<!--END LEVELS MOBILE-->
+
+<!--LEVELS DESKTOP-->
+        <div class="section_desktop">
+        <div class="section_wrapper">
+          <div class="wrapper_medal">
+            <img class="section_levels__circle__img" src="img/icons/icon_third.png" alt="Third">
+            <p class="section_levels__number section_levels__number--bronze">3</p>
+          </div>
+           <p class="section_circle__text section_levels__circle__text">Начальный</p>
+         <a class="section_button_more" href="#" data-tab="tab-4">Подробнее</a>
         </div>
 
-        <a class="section_button_more" href="#">Подробнее</a>
-        <p class="section_text_description">Данный уровень предполагает умение уверенно держаться на воде и проплывать любым удобным способом 25-50м. В занятия включаются упражнения для освоения с водной средой, развития координации движений и простейшую тренировку дыхательной и сердечно-сосудистой систем. На данном уровне понятия «фридайвинг» и «скоростное плавание в ластах» не рассматриваются.</p>
+        <div class="section_wrapper">
+          <div class="wrapper_medal">
+           <img class="section_levels__circle__img" src="img/icons/icon_second.png" alt="Second">
+           <p class="section_levels__number section_levels__number--silver">2</p>
+         </div>
+          <p class="section_circle__text section_levels__circle__text">Базовый</p>
+
+        <a class="section_button_more" href="#" data-tab="tab-5">Подробнее</a>
        </div>
+
+       <div class="section_wrapper">
+         <div class="wrapper_medal">
+           <img class="section_levels__circle__img" src="img/icons/icon_first.png" alt="First">
+           <p class="section_levels__number section_levels__number--gold">1</p>
+         </div>
+         <p class="section_circle__text section_levels__circle__text">Продвинутый</p>
+
+       <a class="section_button_more" href="#" data-tab="tab-6">Подробнее</a>
+      </div>
+      </div>
+      <p class="section_text_description" id="tab-4">Данный уровень предполагает умение уверенно держаться на воде и проплывать любым удобным способом 25-50м. В занятия включаются упражнения для освоения с водной средой, развития координации движений и простейшую тренировку дыхательной и сердечно-сосудистой систем. На данном уровне понятия «фридайвинг» и «скоростное плавание в ластах» не рассматриваются.</p>
+      <p class="section_text_description" id="tab-5">Данный уровень предполагает умение плыть не меньше 100-200м с применением упрощённых вариантов техники основных способов плавания. В занятия включаются упражнения для освоения техники плавания с применением специальных средств (лопатки, колобашки, короткие ласты и пр.) и адаптированную для данного уровня тренировку дыхательной и сердечно-сосудистой систем. Также даётся представление о технике скоростного плавания в ластах с простейшими упражнениями для фридайвинга.</p>
+      <p class="section_text_description" id="tab-6">Данный уровень предполагает уверенное проплывание заданной дистанции с применением техники спортивных способов плавания. В занятия включаются упражнения для совершенствования техники плавания и специальные задания для развития дыхательной и сердечно-сосудистой систем на уровне начальной тренировки профессиональных пловцов. В тренировку также включаются упражнения из арсенала фридайверов для техничного и эффективного ныряния на дальность и упражнения из системы подготовки пловцов в ластах для развития умения скоростного продвижения в воде.</p>
+<!--END LEVELS DESKTOP-->
       </div>
 <!--END THIRD SECTION-->
 
@@ -129,16 +196,18 @@
        <h2 class="section_heding">Спортивный врач</h2>
        <img class="section_doctor__img" src="img/icons/icon_doctor.png" alt="Doctor">
        <div class="section_doctor__wrapper_text">
-       <p class="section_doctor__text"><span class="text-bold">Оптимальные физические нагрузки</span> заставляют интенсивно работать все органы и системы. Чем интенсивнее мышечная деятельность в границах оптимальной зоны,тем полнее реализуется «генетическая программа», раскрываются функциональные резервы организма, улучшаются механизмы адаптации (приспособления) к постоянно меняющимся условиям существования и ускоряющемуся темпу жизни, а также повышается сопротивляемость к воздействию самых неблагоприятных факторов, в том числе к стрессам и экологическим проблемам, увеличивается продолжительность жизни, организм становится более крепким и надёжным.</p>
-       <p><span class="text-bold">Оптимальный уровень физической активности</span> сугубо индивидуален и зависит от возраста, пола, состояния здоровья, функциональных возможностей организма, физической подготовленности, характера труда и многих других факторов. Следует помнить о том, что физические нагрузки, как и лекарства, полезны лишь в адекватной дозировке: кратковременные и недостаточно интенсивные пользы не принесут, а излишне напряжённые могут навредить. Именно поэтому без консультации специалиста в области спортивной медицины этот вопрос (оптимального уровня нагрузки) сложно решить. В рамках проекта вам предлагается медицинское сопровождение в виде консультаций, тестирования, лабораторных исследований (по показаниям) с выдачей заключения и рекомендаций для подбора оптимальной нагрузки и отслеживания эффективности тренировок.</p>
+       <p class="section_doctor__text"><span class="text-bold">Оптимальные физические нагрузки</span> заставляют интенсивно работать все органы и системы. Чем интенсивнее мышечная деятельность в границах оптимальной зоны, тем полнее реализуется «генетическая программа», раскрываются функциональные резервы организма, улучшаются механизмы адаптации (приспособления) к постоянно меняющимся условиям существования и ускоряющемуся темпу жизни, а также повышается сопротивляемость к воздействию самых неблагоприятных факторов, в том числе к стрессам и экологическим проблемам, увеличивается продолжительность жизни, организм становится более крепким и надёжным.</p>
+       <p><span class="text-bold">Оптимальный уровень физической активности</span> сугубо индивидуален и зависит от возраста, пола, состояния здоровья, функциональных возможностей организма, физической подготовленности, характера труда и многих других факторов. Следует помнить о том, что физические нагрузки, как и лекарства, полезны лишь в адекватной дозировке: кратковременные и недостаточно интенсивные пользы не принесут, а излишне напряжённые могут навредить.<br> Именно поэтому без консультации специалиста в области спортивной медицины этот вопрос (оптимального уровня нагрузки) сложно решить. В рамках проекта вам предлагается медицинское сопровождение в виде консультаций, тестирования, лабораторных исследований (по показаниям) с выдачей заключения и рекомендаций для подбора оптимальной нагрузки и отслеживания эффективности тренировок.</p>
      </div>
 
+     <div class="wrapper_align">
      <p class="section_doctor__about">Консультации и исследования проводит <span class="section_name">Дорофеева Е.Е. &#8212;</span><br>
         мастер спорта международного класса по плаванию<br>
         доктор спортивной медицины высшей категории<br>
         доктор медицинских наук</p>
     <div class="section_doctor__photo">
     </div>
+   </div>
   </div>
 <!--END FOURTH SECTION-->
 
@@ -151,7 +220,10 @@
 <!--FIFTH SECTION-->
     <div class="wrapper_section wrapper_section--text-center">
       <h2 class="section_heding">Расписание и цены</h2>
-      <p class="text-bold text-font">Бассейн ШВСМ г. Киева (бывший «Юность»)</p>
+
+      <div class="wrapper_flex">
+      <div class="wrapper_pool">
+      <p class="text-font">Бассейн ШВСМ г. Киева<br> (бывший «Юность»)</p>
       <p>Басейн 50м (открытый)</p>
       <p class="section_pools__adress">Печерск, ул.Бастионная, 7 (м.«Дружбы народов»)</p>
       <img class="section_pools__img" src="img/unost1.jpg" alt="Pool Unost">
@@ -166,11 +238,13 @@
       <p class="section_pools__schedule_time">18:00 — 21:00</p>
       </div>
 
-      <p class="section_pools__price">Цена одного занятия <span class="text-bold">250 грн.</span></p>
+      <p class="section_pools__price section_pools__adress--top_margin-68">Цена одного занятия <span class="text-bold">250 грн.</span></p>
+      </div>
 
-      <p class="text-bold section_pools__name text-font">Бассейн «Олимп»</p>
+      <div class="wrapper_pool">
+      <p class="section_pools__name text-font">Бассейн «Олимп»</p>
       <p>Басейн 25м</p>
-      <p class="section_pools__adress">Центр, ул. Деловая,10 (м.«Олимпийская»)</p>
+      <p class="section_pools__adress section_pools__adress--top_margin">Центр, ул. Деловая,10 (м.«Олимпийская»)</p>
       <img class="section_pools__img" src="img/olimp1.jpg" alt="Pool Olimp">
 
       <p class="text-bold section_pools__schedule_day">Понедельник, среда, пятница</p>
@@ -185,6 +259,8 @@
       </div>
 
       <p class="section_pools__price"><span class="text-bold">Старт проекта намечен на сентябрь.</span><br>Проводится предварительная запись в группы.</p>
+      </div>
+     </div>
     </div>
 <!--END FIFTG SECTION-->
 
