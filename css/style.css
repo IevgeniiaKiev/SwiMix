@@ -221,13 +221,17 @@ html, body {
 }
 
 .section_circle__text {
+  padding-top: 20px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.section_programs__circle__text {
-  padding-top: 20px;
+@media screen and (min-width: 768px) {
+  .section_circle__text--padding {
+    padding-bottom: 14px;
+    padding-top: 30px;
+  }
 }
 
 .section_programs__circle__img {
@@ -240,6 +244,16 @@ html, body {
 @media screen and (min-width: 768px) {
   .section_programs__circle__img {
     padding-top: 0;
+    width: auto;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .section_programs__circle__img {
+    padding-top: 0;
+    width: auto;
+    height: 80px;
   }
 }
 
@@ -377,10 +391,6 @@ html, body {
     font-size: 55px;
     line-height: 83px;
   }
-}
-
-.section_levels__circle__text {
-  padding-top: 20px;
 }
 
 .wrapper_medal {
