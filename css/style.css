@@ -62,14 +62,6 @@ html, body {
   }
 }
 
-@media only screen
-  and (min-device-width: 1024px)
-  and (orientation: landscape)  {
-    .section_top {
-    height: 800px;
-    }
-}
-
 @media screen and (min-width: 1360px) {
   .section_top {
     background-image: url('../img/desktop1.jpg');
@@ -442,6 +434,12 @@ html, body {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .section_slogan--second {
+    background-position: 50% 40%;
+  }
+}
+
 @media screen and (min-width: 1360px) {
   .section_slogan--second {
     background-image: url('../img/desktop3.jpg');
@@ -514,7 +512,14 @@ html, body {
 
 @media screen and (min-width: 768px) {
   .section_slogan--third {
+    background-position: 50% 50%;
     background-image: url('../img/tablet4.jpg');
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section_slogan--third {
+    background-position: 50% 40%;
   }
 }
 
