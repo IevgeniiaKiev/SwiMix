@@ -428,8 +428,18 @@ html, body {
   background-image: url('../img/mobile3.jpg');
 }
 
+@media only screen
+   and (min-device-width : 480px)
+   and (max-device-width : 800px)
+   and (orientation : landscape) {
+     .section_slogan--second {
+       background-position: 50% 30%;
+     }
+   }
+
 @media screen and (min-width: 768px) {
   .section_slogan--second {
+    background-position: top center;
     background-image: url('../img/tablet3.jpg');
   }
 }
@@ -509,6 +519,15 @@ html, body {
 .section_slogan--third {
   background-image: url('../img/mobile4.jpg');
 }
+
+@media only screen
+   and (min-device-width : 480px)
+   and (max-device-width : 800px)
+   and (orientation : landscape) {
+     .section_slogan--third {
+       background-position: 50% 45%;
+     }
+   }
 
 @media screen and (min-width: 768px) {
   .section_slogan--third {
