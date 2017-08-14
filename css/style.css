@@ -71,6 +71,16 @@ html, body {
   }
 }
 
+@media only screen
+   and (min-device-width : 1024px)
+   and (max-device-width : 1450px)
+   and (orientation : landscape) {
+     .section_top {
+       background-image: url('../img/desktop1.jpg');
+       background-position: 20% 50%;
+     }
+   }
+
 @media screen and (min-width: 1360px) {
   .section_top {
     background-image: url('../img/desktop1.jpg');
@@ -364,6 +374,15 @@ html, body {
   }
 }
 
+@media only screen
+   and (min-device-width : 1024px)
+   and (max-device-width : 1450px)
+   and (orientation : landscape) {
+     .section_slogan--first {
+       background-image: url('../img/desktop2.jpg');
+     }
+   }
+
 @media screen and (min-width: 1360px) {
   .section_slogan--first {
     background-image: url('../img/desktop2.jpg');
@@ -452,6 +471,15 @@ html, body {
     background-image: url('../img/tablet3.jpg');
   }
 }
+
+@media only screen
+   and (min-device-width : 1024px)
+   and (max-device-width : 1450px)
+   and (orientation : landscape) {
+     .section_slogan--second {
+       background-image: url('../img/desktop3.jpg');
+     }
+   }
 
 @media screen and (min-width: 1024px) {
   .section_slogan--second {
@@ -544,6 +572,15 @@ html, body {
     background-image: url('../img/tablet4.jpg');
   }
 }
+
+@media only screen
+   and (min-device-width : 1024px)
+   and (max-device-width : 1450px)
+   and (orientation : landscape) {
+     .section_slogan--third {
+       background-image: url('../img/desktop4.jpg');
+     }
+   }
 
 @media screen and (min-width: 1024px) {
   .section_slogan--third {
