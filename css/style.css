@@ -249,7 +249,8 @@ html, body {
 .logo {
   display: block;
   width: 130px;
-  margin: 0 auto;margin-bottom: 40px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .section_heding {
