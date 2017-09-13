@@ -41,7 +41,7 @@ html, body {
    width: 100%;
  }
 
- .clearfix:after {
+.clearfix:after {
    content: "";
    display: block;
    clear: both;
@@ -228,7 +228,6 @@ html, body {
   }
 }
 
-
 @media screen and (min-width: 1360px) {
   .section_top__slogan {
     font-size: 30px;
@@ -245,6 +244,12 @@ html, body {
   .section_top__slogan div:last-child {
     width: 305px;
   }
+}
+
+.logo {
+  display: block;
+  width: 130px;
+  margin: 0 auto;margin-bottom: 40px;
 }
 
 .section_heding {
